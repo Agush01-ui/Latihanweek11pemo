@@ -35,7 +35,14 @@ Aplikasi ini memiliki antarmuka sederhana namun fungsional untuk meningkatkan pr
   Pengguna dapat memilih dan menghapus tugas yang sudah tidak diperlukan.
 
 ---
-Fitur Tambahan
+# Priority Hub
+
+Aplikasi **Priority Hub** membantu pengguna mengatur tugas sehari-hari dengan lebih efektif, lengkap dengan fitur tambahan yang membuat manajemen tugas lebih nyaman dan personal.
+
+---
+
+## Fitur Tambahan
+
 ### 1. Login 🔐
 Priority Hub menerapkan **Authentication System** untuk fitur **Masuk** dan **Daftar**, sehingga pengguna dapat:
 
@@ -70,6 +77,38 @@ Priority Hub menggunakan kombinasi **SQLite** dan **SharedPreferences** untuk ma
   - Mode tampilan (Light/Dark)  
   - Data terakhir yang digunakan atau preferensi sederhana lainnya  
 
+---
+
+## Fitur Tambahan Terbaru ✨
+
+### 4. Notifikasi “Data from Cache” 📝
+Setiap kali data diambil dari **database lokal**, pengguna akan menerima notifikasi singkat:
+
+- Menampilkan pesan **“Data from Cache (Local DB)”**  
+- Memberikan konfirmasi bahwa data ditampilkan tanpa mengambil dari server  
+
+Meningkatkan pengalaman pengguna dengan memberi tahu sumber data.
+
+---
+
+### 5. Timestamp Terakhir Refresh ⏱️
+Menampilkan waktu terakhir **data tugas diperbarui**, sehingga pengguna bisa:
+
+- Melihat kapan terakhir kali daftar tugas disegarkan  
+- Memastikan data yang ditampilkan adalah terbaru dari cache  
+
+---
+
+### 6. Tombol “Clear Cache” 🧹
+Pengguna dapat membersihkan cache aplikasi dengan mudah melalui tombol:
+
+- Mengosongkan **daftar tugas sementara di memori** (tanpa menghapus data permanen di DB)  
+- Reset **timestamp terakhir refresh**  
+- Memberikan notifikasi bahwa cache telah dibersihkan  
+
+Fitur ini membantu menjaga aplikasi tetap ringan dan memudahkan debugging data.
+
+---
 
 💡 Tujuan
 Meningkatkan efektivitas pengelolaan waktu dan membantu pengguna agar lebih konsisten menyelesaikan kegiatan berdasarkan prioritasnya.
