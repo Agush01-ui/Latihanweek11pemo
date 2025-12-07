@@ -15,7 +15,8 @@ dependencies:
   path: ^1.8.3
   shared_preferences: ^2.2.0
   
-  # Ikon standar
+  provider: ^6.1.2   #TAMBAHAN UNTUK COUNTER REACTIVE
+  
   cupertino_icons: ^1.0.6
 
 dev_dependencies:
